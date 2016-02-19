@@ -23,13 +23,6 @@
  */
 package edu.mit.media.funf;
 
-import java.lang.reflect.Type;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -58,6 +51,13 @@ import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 import com.google.gson.TypeAdapterFactory;
 
+import java.lang.reflect.Type;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 import edu.mit.media.funf.Schedule.BasicSchedule;
 import edu.mit.media.funf.Schedule.DefaultSchedule;
 import edu.mit.media.funf.action.Action;
@@ -70,7 +70,6 @@ import edu.mit.media.funf.config.HttpConfigUpdater;
 import edu.mit.media.funf.config.ListenerInjectorTypeAdapterFactory;
 import edu.mit.media.funf.config.SingletonTypeAdapterFactory;
 import edu.mit.media.funf.datasource.Startable;
-import edu.mit.media.funf.datasource.StartableDataSource;
 import edu.mit.media.funf.pipeline.Pipeline;
 import edu.mit.media.funf.pipeline.PipelineFactory;
 import edu.mit.media.funf.probe.Probe;
